@@ -1,0 +1,129 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: black;
+    height: 40px;
+    margin: 0%;
+    padding: 7px;
+}
+nav h1{
+    font-family: 'Ubuntu';
+    color: white;
+    margin: 7px;
+    text-align: center;
+}
+.body{
+background-color: #2f3640;
+height: auto;
+width: auto;
+display: flex;
+flex-wrap: wrap;
+}
+.body1{
+    background-color: #2f3640;
+    height: 665px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.btn{
+    background-color: rgb(0, 110, 255); /* Green */
+    border: none;
+    font-family: 'Ubuntu';
+    border-radius: 37px;
+    color: white;
+    padding: 78px 96px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 5px;
+
+}
+.footer{
+    background-color: #000000;
+    height: 50px;
+    margin: 0%;
+    padding: 10px;
+}
+.footer h2{
+    font-family: 'ubuntu';
+    color: white;
+    text-align: center;
+margin: 13px;
+font-size: 20px;
+}
+.flex{
+    background-color:#2f3640 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.date{
+    height: 146px;
+    width: 186px;
+    background-color:rgb(0, 110, 255) ;
+font-family: 'ubuntu';
+margin: 6px;
+color: white;
+font-size: 45px;
+border-radius: 15px;
+/* text-align: bottom,left; */
+}
+p{
+    font-size: 15px;
+    font-family: 'Ubuntu';
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.btn-nav{
+    background-color: #ffbc00; /* Green */
+    border: none;
+    font-family:'Ubuntu';
+    border-radius: 4px;
+    color: black;
+    padding: 7px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 4px;
+}
+.nav{
+background-color: #353131;
+height: 50px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.abt{
+    font-family: 'Ubuntu';
+    color: white;
+    margin: 7px;
+    text-align: center;  
+}
+.link{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu';
+background-color: #ffbc00;
+    margin: 5px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
